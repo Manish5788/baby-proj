@@ -12,6 +12,7 @@ sap.ui.define([
 ],
 	/**
 	 * @param {typeof sap.ui.core.mvc.Controller} Controller
+     * 
 	 */
     function (mobileLibrary, Controller, MessageBox, MessageToast, JSONModel, Fragment, Dialog, Button, Text, History) {
         "use strict";
