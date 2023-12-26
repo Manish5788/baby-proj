@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UI5 Index</title>
+    <link  type="image/gif" href="model/Until.png" rel="shortcut icon" >
+	<link type="image/gif" href="model/Until.png" rel="icon" >
+    <style>
+        html, body, body > div, #container, #container-uiarea {
+            height: 100%;
+        }
+    </style>
+    <script
+        id="sap-ui-bootstrap"
+        src="resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon"
+        data-sap-ui-resourceroots='{
+            "proj.pro": "./"
+        }'
+        data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-async="true"
+        data-sap-ui-frameOptions="trusted"
+    ></script>
+</head>
+<body class="sapUiBody sapUiSizeCompact" id="content">
+    <div
+        data-sap-ui-component
+        data-name="proj.pro"
+        data-id="container"
+        data-settings='{"id" : "proj.pro"}'
+        data-handle-validation="true"
+    ></div>
+</body>
+</html>

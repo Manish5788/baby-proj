@@ -1,0 +1,44 @@
+<mvc:View
+    controllerName="proj.pro.controller.View"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page
+                    id="page"
+                    title="Project Details"
+                    showNavButton="true"
+                    navButtonPress="goBack"
+                    enableScrolling="true"
+                    class="sapUiResponsivePadding--header sapUiResponsivePadding--footer"
+                >
+                    <headerContent>
+                        <SearchField
+                            id="_IDGenSearchField1"
+                            width="12rem"
+                            liveChange=".onSearch"
+                        />
+                    </headerContent>
+                    <FlexBox
+                        id="_IDGenFlexBox1"
+                        height="100px"
+                        alignItems="Start"
+                        justifyContent="Center"
+                    >
+                        <Image
+                            id="_IDGenImage1"
+                            src="/model/proj.png"
+                            class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                            alt="Example picture of USB flash drive"
+                        />
+                    </FlexBox>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

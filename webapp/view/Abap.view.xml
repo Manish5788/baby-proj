@@ -1,0 +1,36 @@
+<mvc:View
+    controllerName="proj.pro.controller.abap"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page
+                    id="page"
+                    title="ABAP and UI5"
+                    showNavButton="true"
+                    navButtonPress="goBack"
+                    enableScrolling="true"
+                    class="sapUiResponsivePadding--header sapUiResponsivePadding--footer"
+                >
+                    <FlexBox
+                        id="_IDGenFlexBox1"
+                        height="100px"
+                        alignItems="Start"
+                        justifyContent="Center"
+                    >
+                        <Image
+                            id="_IDGenImage1"
+                            src="/model/abappic.jpg"
+                            class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+                            alt="Example picture of USB flash drive"
+                        />
+                    </FlexBox>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

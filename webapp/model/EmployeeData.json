@@ -1,0 +1,70 @@
+{
+	"pages": [
+		{
+			"pageId": "employeePageId",
+			"header": "My Info",
+			"icon": "/model/Manish.png",
+			"displayShape": "Circle",
+			"title": "Manish Kumar Rajak",
+            "description": "Sr.Lead Counsultant",
+            "link":"https://www.linkedin.com/in/manish-kumar-9841b154/",
+			"groups": [
+				{
+					"heading": "Contact Details",
+					"elements": [
+						{
+							"label": "Mobile",
+							"value": "+91 9975 14317-9",
+							"elementType": "mobile"
+						},
+						{
+							"label": "Phone",
+							"value": "+91 9110 20807-0",
+							"elementType": "phone"
+						},
+						{
+							"label": "Email",
+							"value": "mrajak@fossil.com",
+							"emailSubject": "Love to Work with you!",
+							"elementType": "email"
+						}
+					]
+				},
+				{
+					"heading": "Company",
+					"elements": [
+						{
+							"label": "Name",
+							"value": "Fossil Global Services India LLP",
+							"url": "https://www.fossilgroup.com/",
+							"elementType": "link"
+						},
+						{
+							"label": "Address",
+							"value": "Block C1, 3rd Floor, Brigade Tech Garden Kundalahalli, Green Avenue, 2, ITPL Main Rd, Bengaluru, Karnataka 560037"
+						}
+                    ]
+                    
+                },
+                		{
+					"heading": "Social Media",
+					"elements": [
+						{
+							"label": "LinkedIn ",
+							"value": "LinkedIn ",
+							"url": "https://www.linkedin.com/in/manish-kumar-9841b154/",
+							"elementType": "link"
+						},
+						{
+							"label": "Twitter ",
+							"value": "Twitter ",
+							"url": "https://twitter.com/ManishK96274931",
+							"elementType": "link"
+						}
+                    ]
+                    
+				}
+			]
+		}
+	]
+}

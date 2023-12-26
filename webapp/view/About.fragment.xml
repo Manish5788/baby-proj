@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Dialog id="_IDGen12" title="About" contentWidth="450px">
+
+        <l:VerticalLayout id="_IDGenVerticalLayou1" class="sapUiContentPadding" width="100%">
+            <Image id="_IDGenIma1" src="/model/logo_trans1.png" height="200px" width="200px" class="image" alt="UI5 Picture" />
+            <Title id="_IDGenTitle1" level="H2" text="Manish Kumar Rajak" />
+            <Text id="_IDGenTex1" text="© Copyright 2021 Manish Kumar Rajak. All rights reserved."/>
+            <Title id="_IDGenTi2" level="H3" text="Version 1.00.0" />
+            <Text id="_IDGenTex2" text="This software includes the Latest UI5 library versions" />
+
+        </l:VerticalLayout>
+        <FlexBox id="_IDGenFlexB1" height="50px" alignItems="Center" justifyContent="Center">
+            <Button id="_IDGenBut1" text="Close" type="Accept"  press="handleCloseHint" class="sapUiLargeMarginEnd"/>
+            <Button id="_IDGenBut2" icon="/model/linkedin.png" type="Transparent" press="handleUrlPress"/>
+            <Button id="_IDGenBut3" icon="/model/twitter.png" type="Transparent" press="onPresstweet" />
+            <Button id="_IDGenBut4" icon="/model/github.png" type="Transparent" press="onPressgit" />
+        </FlexBox>
+
+
+    </Dialog>
+
+</core:FragmentDefinition>

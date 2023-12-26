@@ -1,0 +1,16 @@
+/* Enter your custom styles here */
+.image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 160px;
+    margin-left: 80px;
+    animation: shake .9s infinite /* shorthand animation property */
+  
+  }
+   @media (max-width: 700px) {
+     .image {
+       position:relative; /* relative to the normal flow */
+       margin:auto; /* to center the images */
+       display:block /* block images optional */
+     }
+   }
