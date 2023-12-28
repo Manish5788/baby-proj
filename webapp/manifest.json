@@ -120,6 +120,7 @@
             "viewName": "Abap"
         },
         "WorkView": {
+          
            "viewId":"work",
             "viewType": "XML",
             "viewName": "Work"
