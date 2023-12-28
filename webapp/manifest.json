@@ -111,7 +111,7 @@
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "View1",
+          "viewId": "View",
           "viewName": "View"
         },
         "AbapView": {
@@ -125,7 +125,7 @@
             "viewName": "Work"
         },
         "BlogsView": {
-
+            "viewId":"blog",
             "viewType": "XML",
             "viewName": "Blog"
         }
