@@ -1,29 +1,23 @@
 sap.ui.define([
     "sap/m/library",
     "sap/ui/core/mvc/Controller",
-    "sap/m/MessageBox",
-    "sap/m/MessageToast",
-    "sap/ui/model/json/JSONModel",
-    "sap/ui/core/Fragment",
-    "sap/m/Dialog",
-    "sap/m/Button",
-    "sap/m/Text",
     "sap/ui/core/routing/History"
 ],
 	/**
 	 * @param {typeof sap.ui.core.mvc.Controller} Controller
      * 
 	 */
-    function (mobileLibrary, Controller, MessageBox, MessageToast, JSONModel, Fragment, Dialog, Button, Text, History) {
+    function (mobileLibrary, Controller, History) {
         "use strict";
 
         var URLHelper = mobileLibrary.URLHelper;
 
         return Controller.extend("proj.pro.controller.Blog", {
             onInit: function () {
-
+                const oRouter1 = this.getOwnerComponent().getRouter();
+                var oRouters  = "Hello Man";
                 var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-                oRouter.getRoute("RouteBlogsView").attachMatched(this._onRouteFound, this);
+                //oRouter.getRoute("RouteBlogsView").attachMatched(this._onRouteFound, this);
 
             },
             // Bind UI element from backend data 
@@ -40,7 +34,7 @@ sap.ui.define([
                 if (sPreviousHash !== undefined) {
                     window.history.go(-1);
                 } else {
-                    this.getOwnerComponent().getRouter().navTo("rootView", {}, true /*no history*/);
+                    this.getOwnerComponent().getRouter().navTo("RouteView", {}, true /*no history*/);
                 }
             },
 

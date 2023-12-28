@@ -19,19 +19,19 @@
                 >
                     <headerContent>
                         <SearchField
-                            id="_IDGenSearchField1"
+                            id="_IDGenSearchField12"
                             width="12rem"
                             liveChange=".onSearch"
                         />
                     </headerContent>
                     <FlexBox
-                        id="_IDGenFlexBox1"
+                        id="_IDGenFlexBox12"
                         height="100px"
                         alignItems="Start"
                         justifyContent="Center"
                     >
                         <Image
-                            id="_IDGenImage1"
+                            id="_IDGenImage19"
                             src="/model/proj.png"
                             class="sapUiLargeMarginTop sapUiLargeMarginBottom"
                             alt="Example picture of USB flash drive"

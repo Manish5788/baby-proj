@@ -160,8 +160,9 @@ sap.ui.define([
                 this.getOwnerComponent().getRouter().navTo("RouteAbapView", {});
             },
             onPressBlogs: function (oEvent) {
-                
-                this.getOwnerComponent().getRouter().navTo("RouteBlogsView", {});
+                const oRouter = this.getOwnerComponent().getRouter();
+                oRouter.navTo("RouteBlogsView");
+                //this.getOwnerComponent().getRouter().navTo("RouteBlogsView", {});
             },
 
             onPressWork: function (oEvent) {
