@@ -85,13 +85,13 @@
         <content>
             <FlexBox
                 id="_IDGenFlexBox1"
-                height="100px"
+                height="30px"
                 alignItems="Start"
                 justifyContent="Center"
             >
                 <Image
                     id="_IDGenImage1"
-                    src="/model/abap.jpg"
+                    src="/model/abappic.jpg"
                     class="sapUiLargeMarginTop sapUiLargeMarginBottom"
                     alt="Example picture of USB flash drive"
                 />
