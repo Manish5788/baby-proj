@@ -91,7 +91,7 @@
             >
                 <Image
                     id="_IDGenImage1"
-                    src="/model/abappic.jpg"
+                    src="/model/abap.jpg"
                     class="sapUiLargeMarginTop sapUiLargeMarginBottom"
                     alt="Example picture of USB flash drive"
                 />
